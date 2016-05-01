@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Udacity_project1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_details">Movie_details</string>
+
+    <string name="base_url_tmdb">http://api.themoviedb.org/3/discover/movie</string>
+    <string name="poster_image_base_url">http://image.tmdb.org/t/p/</string>
+    <string name="my_api_key">b3ce68b5d3c963d5cff8068e36920987</string>
+    <string name="movie_details_fragment_tag">"movie_details_fragment"</string>
+    <string name="sort_by_popularity">popularity.desc</string>
+    <string name="sort_by_rating">vote_average.desc</string>
+    <string name="menu_title_popularity">Most Popular</string>
+    <string name="menu_title_rating">Highest Rated</string>
+</resources>

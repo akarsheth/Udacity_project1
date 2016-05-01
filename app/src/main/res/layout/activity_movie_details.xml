@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akar.udacity_project1.Movie_details"
+    android:background="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            >
+
+            <TextView
+                android:id="@+id/original_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/titlesize"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/poster_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/original_title"
+                />
+
+            <TextView
+                android:id="@+id/user_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/poster_image"
+
+                android:paddingLeft="@dimen/padding"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/release_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_rating"
+                android:paddingLeft="@dimen/padding"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/white"/>
+
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/release_Date"
+                android:paddingLeft="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
